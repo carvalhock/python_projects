@@ -1,0 +1,22 @@
+"""
+Desenvolvendo Calculadora
+(Iniciando o aprendizado em Python)
+"""
+
+print('Calculadora Python')
+print('\n SOM = Soma \n SUB = Subtração \n MUL = Multiplicação \n DIV = Divisão \n')
+
+num1 = int(input('Digite um número: '))
+operacao = input('Qual operação matemática você deseja realizar (SOM | SUB | MUL | DIV: ')
+num2 = int(input('Digite um número: '))
+
+if operacao == 'SOM':
+    print(num1, '+', num2, '=', num1 + num2)
+elif operacao == 'SUB':
+    print(num1, '-', num2, '=', num1 - num2)
+elif operacao == 'MUL':
+    print(num1, '*', num2, '=', num1 * num2)
+elif operacao == 'DIV':
+    print(num1, '/', num2, '=', num1 / num2)
+else:
+    print('A calculadora não executa esta operação.')
