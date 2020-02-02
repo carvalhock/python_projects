@@ -1,2 +1,1 @@
-# python_stuff
-# Aprendendo Python (nível iniciante)
+## Some Python projects as I'm learning
