@@ -1,1 +1,1 @@
-## Some Python projects as I'm learning
+## Some Python projects 
